@@ -1,0 +1,13 @@
+:root {
+	--body-bg: #eee;
+	--page-bg: #f9f9f9;
+	--white: #ffffff;
+	--black: #444;
+
+	--bottom-bar-bg: rgb(0 137 123 / 90%);
+	--bottom-bar-bg-selected: rgb(0 105 92);	
+
+	--primary: green;
+	--secondary: blue;
+	--tertiary: red;
+}

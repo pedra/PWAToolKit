@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after {
+	outline: none;
+	box-sizing: border-box;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+html,
+body,
+button,
+input,
+select,
+label,
+table,
+textarea {
+	font-size: 16px;
+	font-family: 
+		BlinkMacSystemFont,
+		-apple-system,
+		'Segoe UI',
+		system-ui,
+		Roboto,
+		'Helvetica Neue',
+		Ubuntu,
+		Tahoma,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji',
+		'Segoe UI Symbol';
+}
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+	background-size: cover;
+	background: var(--body-bg);
+	color: var(--black);
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	/* flex: 1; */
+}
+body {
+	/* display: flex; */
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	/* align-items: center; */
+	/* justify-content: flex-start; */
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 1rem 0;
+}
